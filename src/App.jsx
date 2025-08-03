@@ -1,14 +1,10 @@
-import './App.css'
 import Manager from './components/Manager'
+
 function App() {
-
   return (
-    <div className='h-screen  w-screen'>
-      
-        <Manager />
-     </div>
-
-
+    <div className='h-screen w-screen'>
+      <Manager />
+    </div>
   )
 }
 
